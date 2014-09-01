@@ -27,10 +27,16 @@ don't expect that to be the point.
 ## How to use
 
 Compile with
-  dylan-compiler -build word-count.lid
+```
+dylan-compiler -build word-count.lid
+```
 
 Run with
-  _build/bin/word-count
+```
+_build/bin/word-count
+```
 
 Benchmark with
-  time cat big.txt | _build/bin/word-count > result.txt
+```
+time cat big.txt | _build/bin/word-count > result.txt
+```
