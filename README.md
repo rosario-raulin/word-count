@@ -11,11 +11,11 @@ a new language.
 
 Here's the problem/algorithm:
 * Read line-by-line from stdin.
-* Count how often every word* occurs.
+* Count how often every word occurs.
 * print this statistics out sorted descending by the number of occurrences.
 
-A "word" is a sequence of characters that do *not* contain any whitespace
-character (perl regex: "\w+").
+A "word" is a sequence of characters that does *not* contain any whitespace
+characters (perl regex: "\w+").
 
 ## Implementation notes
 
