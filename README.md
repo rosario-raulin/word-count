@@ -24,6 +24,11 @@ Compared to common other languages such as C or Java the performance is pretty
 bad... Sure, instead of using regex I could split the strings manually but I
 don't expect that to be the point.
 
+## Update
+
+regular-expressions is a very slow library. I replaced the split-by-word function
+with a fast hand-written version and it performs quite well now.
+
 ## How to use
 
 Compile with
